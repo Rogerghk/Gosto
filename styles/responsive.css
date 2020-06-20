@@ -1,0 +1,22 @@
+@media (max-width: 900px){ /* @media , regras de responsividades celular e afins*/
+    #home {
+        background-position-x: 70vw ;
+    }
+
+    #page-home header {
+        position: absolute;
+        bottom: 48px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .tabela {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+
+    
+
+}
